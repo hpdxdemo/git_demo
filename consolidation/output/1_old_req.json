@@ -4,10 +4,8 @@
         {
             "No": 1,
             "Requestor": "Celine Taccori",
-            "Department": "Design",
+            "Department_Requestor": "Design",
             "Category": "Customer Experience",
-            "Requirement": "OOBE - reduce number of steps : 123.hp.com :",
-            "Cleaned_Requirement_Text": "Reduce the number of naming references for the HP OfficeJet Pro 9010 series on 123.hp.com to a single, consistent name to avoid user confusion.",
             "Applicable_SKUs": [
                 "Marconi SF(Non-PDL)",
                 "Marconi SF PDL",
@@ -16,16 +14,16 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
+            "Requirement": "OOBE - reduce number of steps : 123.hp.com :",
+            "Cleaned_Requirement_Text": "Reduce the number of reference names for the HP OJP 9010 series on 123.hp.com to a single, consistent name to minimize user confusion and errors.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
         {
             "No": 2,
             "Requestor": "Chong, Shin",
-            "Department": "HDRV",
+            "Department_Requestor": "HDRV",
             "Category": "Reliability",
-            "Requirement": "Printer able to run all new/current EM / market segment media ",
-            "Cleaned_Requirement_Text": "Printer must reliably operate with all new and current EM (Evaluation Media) and market segment media, meeting intervention specifications across all relevant climatic conditions for the Manhattan platform.",
             "Applicable_SKUs": [
                 "Marconi SF(Non-PDL)",
                 "Marconi SF PDL",
@@ -34,16 +32,16 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
+            "Requirement": "Printer able to run all new/current EM / market segment media ",
+            "Cleaned_Requirement_Text": "Printer must reliably print on all new and current EM (Evaluation Media) and market segment media types, meeting intervention specifications for different regions and climatic conditions.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
         {
             "No": 3,
             "Requestor": "Chong, Shin",
-            "Department": "HDRV",
+            "Department_Requestor": "HDRV",
             "Category": "Reliability",
-            "Requirement": "Product can be placed and work on uneven surface ( sofa , table cloth , carpet …) ",
-            "Cleaned_Requirement_Text": "The printer must operate normally and without hardware failure when placed on uneven surfaces such as sofas, table cloths, and carpets.",
             "Applicable_SKUs": [
                 "Marconi SF(Non-PDL)",
                 "Marconi SF PDL",
@@ -52,16 +50,16 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
+            "Requirement": "Product can be placed and work on uneven surface ( sofa , table cloth , carpet …) ",
+            "Cleaned_Requirement_Text": "Printer must function correctly and without mechanical failure when placed on uneven surfaces such as sofas, table cloths, or carpets.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
         {
             "No": 4,
             "Requestor": "Chong, Shin",
-            "Department": "HDRV",
+            "Department_Requestor": "HDRV",
             "Category": "Reliability",
-            "Requirement": "Tilt left and right each while printing",
-            "Cleaned_Requirement_Text": "Assess whether the printer experiences any functional failure when tilted 20 degrees left and right during printing.",
             "Applicable_SKUs": [
                 "Marconi SF(Non-PDL)",
                 "Marconi SF PDL",
@@ -70,16 +68,16 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
+            "Requirement": "Tilt left and right each while printing",
+            "Cleaned_Requirement_Text": "Assess whether the printer continues to function without failure when tilted 20 degrees left or right during printing.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
         {
             "No": 5,
             "Requestor": "Chong, Shin",
-            "Department": "HDRV",
+            "Department_Requestor": "HDRV",
             "Category": "Reliability",
-            "Requirement": "Put printer on trolley and print",
-            "Cleaned_Requirement_Text": "The printer must maintain print quality and function correctly when printing while placed on a moving trolley.",
             "Applicable_SKUs": [
                 "Marconi SF(Non-PDL)",
                 "Marconi SF PDL",
@@ -88,6 +86,8 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
+            "Requirement": "Put printer on trolley and print",
+            "Cleaned_Requirement_Text": "Printer must maintain print quality and function correctly when printing while placed on a moving trolley.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         }
