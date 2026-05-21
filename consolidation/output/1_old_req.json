@@ -7,8 +7,8 @@
             "Department_Requestor": "Design",
             "Category": "Customer Experience",
             "Requirement": "OOBE - reduce number of steps : 123.hp.com :",
-            "Additional_Comments_Information": "Is there a reason to have 3 names for the same reference ? HP OJP 9010 All-in-one Printer series HP OJP 9010e All-in-One Printer series HP OJP 9010 All-in-One Printer Have too many names isn't efficient and can induce user errors",
-            "Threshold_Accept": "two names / reference are proposed currently 4 references for Office Jet Pro 9010",
+            "Additional_Comments_Information": "Is there a reason to have 3 names for the same reference ?\nHP OJP 9010 All-in-one Printer series\nHP OJP 9010e All-in-One Printer series\nHP OJP 9010 All-in-One Printer\nHave too many names isn't efficient and can induce user errors",
+            "Threshold_Accept": "two names / reference are proposed\ncurrently 4 references for Office Jet Pro 9010",
             "Goal_Design_Target": "Only one name / reference is proposed to customer",
             "Priority": "MUST",
             "Lead_Function": "Solution",
@@ -26,7 +26,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "Reduce the number of product reference names for HP OJP 9010 series to a single customer-facing name on 123.hp.com.",
+            "Cleaned_Requirement_Text": "Reduce the number of product name references shown to customers for OfficeJet Pro 9010 series to only one, to minimize user confusion and errors.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -55,7 +55,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "Printer must be able to reliably print on all new and current EM (Evaluation Media) and market segment media, meeting intervention specifications for all relevant climatic conditions, with minimum print quality (PQ) acceptable by region.",
+            "Cleaned_Requirement_Text": "Printer must operate reliably with all new and current EM (Evaluation Media) and market segment media, meeting the minimum print quality (PQ) and intervention specifications for each region and climatic condition as defined for the Manhattan platform.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -84,7 +84,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "Printer must operate without functional failure when placed and used on uneven surfaces such as sofas, table cloths, or carpets, with no breakage of input tray sensor flag.",
+            "Cleaned_Requirement_Text": "Printer must function reliably when placed on uneven surfaces (such as sofas, table cloths, or carpets) without failure of the input tray sensor flag or similar components.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -113,7 +113,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "Assess if printer experiences any functional failure when tilted 20 degrees left and right during printing.",
+            "Cleaned_Requirement_Text": "Assess whether the printer maintains full functionality when tilted 20 degrees left and right during printing, with no operational failures.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -142,7 +142,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "Printer must print without print quality (PQ) issues when placed and operated on a trolley.",
+            "Cleaned_Requirement_Text": "Printer must be able to print while placed on a trolley without any print quality issues.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         }
