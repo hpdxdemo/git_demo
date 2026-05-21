@@ -3,8 +3,8 @@
         {
             "No": "1",
             "Title": "AI Productivity and Manageability Solutions",
-            "Description": "Integrate advanced AI-powered productivity, scan workflow, and manageability solutions tailored for SMBs into the Magellan printer. This includes features such as automated document handling, smart scan optimization, and AI-driven device management.",
-            "Rationale": "Addresses SMB need for efficiency and ease of management, especially where IT resources are limited.",
+            "Description": "Integrate advanced AI-powered productivity, scan workflow, and manageability solutions into the Magellan printer to simplify business operations for SMB customers.",
+            "Rationale": "AI solutions address SMB needs for efficiency and ROI, making printer management easier for non-IT users.",
             "Priority": "High",
             "Stakeholders": [
                 "Marketing",
@@ -17,210 +17,210 @@
                 "Prod Steward",
                 "BA"
             ],
-            "Dependencies": "Requires AI software integration, compatible hardware, and SMB portal support.",
-            "Acceptance Criteria": "Demonstrable AI-powered features in the product UI; workflow automation; measurable improvement in management tasks; positive feedback in SMB user testing.",
+            "Dependencies": "Requires AI software development and integration with SMB portal.",
+            "Acceptance Criteria": "AI features for print, scan, and device management are fully functional and accessible via the SMB portal; usability testing with target users demonstrates improved efficiency.",
             "Confidence": 0.95,
-            "citation": "Magellan MRD, Page 4, 7, 11"
+            "citation": "Magellan MRD, Page 4, 7, 10, 11"
         },
         {
             "No": "2",
             "Title": "Lowest Business Total Cost of Ownership (TCO)",
-            "Description": "Design Magellan to deliver HP’s lowest business TCO for SMBs, with minimal intervention required for maintenance and supplies.",
-            "Rationale": "SMBs prioritize ROI and cost-efficiency; low TCO is a key differentiator.",
+            "Description": "Design Magellan to deliver the lowest TCO in HP's business printer portfolio, focusing on cost efficiency for SMBs.",
+            "Rationale": "SMBs prioritize ROI and cost efficiency; lowest TCO is a key differentiator.",
             "Priority": "High",
             "Stakeholders": [
                 "Marketing",
-                "Quality",
                 "BA"
             ],
-            "Dependencies": "Requires efficient consumables, high-yield tanks, and minimal service interventions.",
-            "Acceptance Criteria": "Documented TCO analysis showing Magellan has lowest TCO in HP SMB portfolio; validated by third-party or internal cost models.",
+            "Dependencies": "Requires optimization of ink usage, maintenance, and supplies costs.",
+            "Acceptance Criteria": "Third-party validation or internal analysis confirms Magellan's TCO is lower than competitors and existing HP business printers for target usage profiles.",
             "Confidence": 0.9,
             "citation": "Magellan MRD, Page 4, 11"
         },
         {
             "No": "3",
-            "Title": "Customer-Replaceable Components (PHA, Maintenance Box)",
-            "Description": "Enable customer replaceability for key components (e.g., PHA, maintenance box) to reduce downtime and service costs. If out of warranty, service center support is required.",
-            "Rationale": "SMBs lack dedicated IT; reducing service dependency and downtime is critical.",
-            "Priority": "High",
-            "Stakeholders": [
-                "Quality",
-                "Supplies Quality",
-                "BA"
-            ],
-            "Dependencies": "Component design must allow safe and easy user replacement; service documentation required.",
-            "Acceptance Criteria": "End users can replace specified components without technical support; replacement process validated in user testing.",
-            "Confidence": 0.85,
-            "citation": "Magellan MRD, Page 4"
-        },
-        {
-            "No": "4",
-            "Title": "Keyed Bottles for Ink Refilling",
-            "Description": "Implement keyed bottles for ink refilling to prevent user errors and ensure compatibility.",
-            "Rationale": "Reduces risk of incorrect refilling and supports warranty/service quality.",
-            "Priority": "Medium",
-            "Stakeholders": [
-                "Supplies Quality",
-                "Quality"
-            ],
-            "Dependencies": "Requires design of ink tank and bottle interface.",
-            "Acceptance Criteria": "Keyed bottle system prevents incorrect installation in lab and field tests.",
-            "Confidence": 0.9,
-            "citation": "Magellan MRD, Page 4"
-        },
-        {
-            "No": "5",
-            "Title": "SMB Portal for Printer Management",
-            "Description": "Develop a consolidated SMB portal for device and fleet management, targeting unmanaged/lightly managed SMBs.",
-            "Rationale": "Simplifies printer management for non-IT users, improving efficiency and user experience.",
-            "Priority": "High",
-            "Stakeholders": [
-                "GXD",
-                "Marketing",
-                "R&D Telemetry"
-            ],
-            "Dependencies": "Requires software development, integration with device firmware, and UX design for SMBs.",
-            "Acceptance Criteria": "Portal is functional, user-friendly, and supports management of multiple devices; positive SMB user feedback.",
-            "Confidence": 0.95,
-            "citation": "Magellan MRD, Page 7, 10"
-        },
-        {
-            "No": "6",
-            "Title": "Support for PaaS (Platform as a Service)",
-            "Description": "Ensure Magellan supports Platform as a Service (PaaS) for cloud-enabled solutions and services.",
-            "Rationale": "Addresses future-proofing and integration with evolving SMB IT environments.",
-            "Priority": "Medium",
-            "Stakeholders": [
-                "Tech Reg",
-                "BA"
-            ],
-            "Dependencies": "Requires cloud connectivity and compliance with HP PaaS ecosystem.",
-            "Acceptance Criteria": "Magellan can be registered and managed through HP PaaS platform; passes integration tests.",
-            "Confidence": 0.8,
-            "citation": "Magellan MRD, Page 4, 10"
-        },
-        {
-            "No": "7",
-            "Title": "Non-PDL and PDL SKU Differentiation",
-            "Description": "Offer both Non-PDL and PDL SKUs with differentiated features: Non-PDL with SMB2.0 Solutions and Advanced View SMB portal; PDL SKU with improved print speed (25/20 ppm) and PDL/PS support.",
-            "Rationale": "Addresses different SMB needs and use-cases; expands market coverage.",
-            "Priority": "High",
-            "Stakeholders": [
-                "Marketing",
-                "Tech Reg",
-                "DVAR"
-            ],
-            "Dependencies": "Requires SKU management, firmware variations, and testing for each variant.",
-            "Acceptance Criteria": "Both SKUs available; features validated as per specifications; performance benchmarks met.",
-            "Confidence": 0.9,
-            "citation": "Magellan MRD, Page 4"
-        },
-        {
-            "No": "8",
-            "Title": "Blue Angel Certification for PDL SKU",
-            "Description": "Ensure the PDL SKU achieves Blue Angel environmental certification.",
-            "Rationale": "Supports sustainability goals and competitive positioning, especially in regulated markets.",
-            "Priority": "Medium",
-            "Stakeholders": [
-                "Prod Steward",
-                "Tech Reg"
-            ],
-            "Dependencies": "Requires compliance with Blue Angel criteria and certification process.",
-            "Acceptance Criteria": "PDL SKU receives official Blue Angel certification.",
-            "Confidence": 0.85,
-            "citation": "Magellan MRD, Page 4"
-        },
-        {
-            "No": "9",
-            "Title": "High Sustainability (60% RCP)",
-            "Description": "Magellan must achieve 60% Recycled Content Plastic (RCP) in its construction, exceeding key competitors.",
-            "Rationale": "Supports HP’s sustainability objectives and provides a market differentiator.",
+            "Title": "Sustainability – 60% Recycled Content Plastic (RCP)",
+            "Description": "Ensure that at least 60% of the printer's plastic content is from recycled sources, exceeding competitor benchmarks.",
+            "Rationale": "Sustainability is a top customer and corporate priority; differentiates HP from Epson (30%) and others.",
             "Priority": "High",
             "Stakeholders": [
                 "Prod Steward",
                 "Marketing"
             ],
-            "Dependencies": "Requires sourcing and manufacturing with high RCP; supply chain alignment.",
-            "Acceptance Criteria": "Product BOM and third-party certification confirm 60% RCP; marketing claims substantiated.",
+            "Dependencies": "Sourcing of recycled materials, regulatory compliance.",
+            "Acceptance Criteria": "Bill of materials and third-party audits confirm 60% RCP in final product.",
             "Confidence": 0.9,
             "citation": "Magellan MRD, Page 11"
         },
         {
-            "No": "10",
-            "Title": "Replaceable Maintenance Box Feature",
-            "Description": "Introduce a replaceable maintenance box as a new feature for Magellan.",
-            "Rationale": "Addresses new customer segment needs and reduces service downtime.",
+            "No": "4",
+            "Title": "First Business Ink Tank Printer for HP",
+            "Description": "Develop and launch HP's first business-class ink tank printer, targeting the CISS PLE Hi segment.",
+            "Rationale": "Addresses a gap in HP's portfolio and captures new market share in a growing segment.",
+            "Priority": "High",
+            "Stakeholders": [
+                "Marketing",
+                "R&D Telemetry"
+            ],
+            "Dependencies": "New hardware platform development; CISS technology integration.",
+            "Acceptance Criteria": "Product launch with ink tank technology, positioned and marketed as HP's first business ink tank printer.",
+            "Confidence": 0.95,
+            "citation": "Magellan MRD, Page 4, 6, 7, 12"
+        },
+        {
+            "No": "5",
+            "Title": "Replaceable Maintenance Box",
+            "Description": "Introduce a user-replaceable maintenance box to reduce service intervention and downtime for SMB customers.",
+            "Rationale": "Reduces maintenance costs and complexity for businesses without dedicated IT support.",
             "Priority": "Medium",
             "Stakeholders": [
                 "Quality",
-                "Supplies Quality"
+                "Service",
+                "Marketing"
             ],
-            "Dependencies": "Component design and user documentation; field test validation.",
-            "Acceptance Criteria": "Users can replace maintenance box; feature validated in pilot deployments.",
+            "Dependencies": "Design and supply chain for replaceable parts; user training materials.",
+            "Acceptance Criteria": "End users can replace the maintenance box with minimal tools; documentation and support materials provided.",
+            "Confidence": 0.85,
+            "citation": "Magellan MRD, Page 4"
+        },
+        {
+            "No": "6",
+            "Title": "SMB Device Management Portal",
+            "Description": "Provide a consolidated online portal for SMB customers to manage multiple printers, monitor usage, and access support.",
+            "Rationale": "Simplifies fleet management for non-IT users in SMBs; enhances customer experience.",
+            "Priority": "High",
+            "Stakeholders": [
+                "GXD",
+                "R&D Telemetry",
+                "Marketing"
+            ],
+            "Dependencies": "Integration with device firmware, cloud infrastructure.",
+            "Acceptance Criteria": "Portal is accessible, supports multi-device management, and passes usability tests with target users.",
+            "Confidence": 0.9,
+            "citation": "Magellan MRD, Page 7, 10, 11"
+        },
+        {
+            "No": "7",
+            "Title": "Customer Replaceable Keyed Bottles",
+            "Description": "Implement keyed ink bottles for easy, error-proof refilling by customers, minimizing service calls and spillage.",
+            "Rationale": "Supports SMBs without IT staff; reduces user errors and maintenance needs.",
+            "Priority": "Medium",
+            "Stakeholders": [
+                "Supplies Quality",
+                "Service"
+            ],
+            "Dependencies": "Design and manufacturing of keyed bottles; compatibility with printer hardware.",
+            "Acceptance Criteria": "Bottles can only fit the correct tank; user testing confirms ease of use and prevention of errors.",
+            "Confidence": 0.85,
+            "citation": "Magellan MRD, Page 4"
+        },
+        {
+            "No": "8",
+            "Title": "Warranty: 80k Pages or 2 Years",
+            "Description": "Offer a warranty covering either 80,000 pages printed or 2 years, whichever comes first.",
+            "Rationale": "Builds customer trust and supports the SMB use case for reliability and durability.",
+            "Priority": "High",
+            "Stakeholders": [
+                "Quality",
+                "Service",
+                "Marketing"
+            ],
+            "Dependencies": "Service infrastructure and warranty policy alignment.",
+            "Acceptance Criteria": "Warranty terms are clearly stated in product materials and honored in all supported markets.",
+            "Confidence": 0.9,
+            "citation": "Magellan MRD, Page 4"
+        },
+        {
+            "No": "9",
+            "Title": "PHA – Customer Replaceable and MINK at Service Centre",
+            "Description": "Design for customer replaceable PHA (Primary Handling Assembly) and MINK (maintenance kit) at service centers, with a target for customer replaceability if out of warranty.",
+            "Rationale": "Minimizes downtime and service costs for SMBs; aligns with low-intervention goals.",
+            "Priority": "Medium",
+            "Stakeholders": [
+                "Service",
+                "Quality"
+            ],
+            "Dependencies": "Design for serviceability; training and documentation.",
+            "Acceptance Criteria": "PHA is customer replaceable; MINK replaceable at service centers; instructions provided.",
+            "Confidence": 0.8,
+            "citation": "Magellan MRD, Page 4"
+        },
+        {
+            "No": "10",
+            "Title": "Non-PDL SKU: SMB 2.0 Solutions and Advanced View SMB Portal",
+            "Description": "Ensure non-PDL SKUs support SMB 2.0 Solutions and provide access to the Advanced View SMB portal.",
+            "Rationale": "Delivers differentiated experience for SMBs via software and services.",
+            "Priority": "Medium",
+            "Stakeholders": [
+                "GXD",
+                "R&D Telemetry",
+                "Marketing"
+            ],
+            "Dependencies": "Software integration; portal development.",
+            "Acceptance Criteria": "Non-PDL SKUs ship with SMB 2.0 Solutions and portal access enabled.",
             "Confidence": 0.8,
             "citation": "Magellan MRD, Page 4"
         },
         {
             "No": "11",
-            "Title": "Warranty: 80k Pages or 2 Years (Whichever First)",
-            "Description": "Provide a warranty covering 80,000 pages or 2 years, whichever comes first, for Magellan printers.",
-            "Rationale": "Meets SMB expectations for reliability and cost control.",
+            "Title": "PDL SKU: Increased Print Speed and PDL/PS Support",
+            "Description": "PDL SKUs must support print speeds of at least 25/20 ppm (improvement over current 25/19), and include PDL/PS (Page Description Language/PostScript) support.",
+            "Rationale": "Meets needs of higher-end SMBs and competitive positioning.",
             "Priority": "High",
             "Stakeholders": [
-                "Quality",
+                "R&D Telemetry",
                 "Marketing"
             ],
-            "Dependencies": "Warranty policy and service infrastructure alignment.",
-            "Acceptance Criteria": "Warranty terms clearly communicated; support infrastructure in place; tracked in warranty system.",
-            "Confidence": 0.95,
+            "Dependencies": "Hardware and firmware capability; PDL/PS licensing.",
+            "Acceptance Criteria": "PDL SKU achieves target speeds in lab tests; PDL/PS support verified by print job compatibility.",
+            "Confidence": 0.85,
             "citation": "Magellan MRD, Page 4"
         },
         {
             "No": "12",
-            "Title": "Advanced Telemetry Requirements",
-            "Description": "Implement advanced telemetry features for remote monitoring, diagnostics, and usage analytics, supporting both HP and SMB customer needs.",
-            "Rationale": "Enables proactive support, fleet management, and product improvement.",
-            "Priority": "High",
+            "Title": "Blue Angel Certification for PDL SKU",
+            "Description": "Obtain Blue Angel environmental certification for the PDL SKU.",
+            "Rationale": "Addresses environmental and regulatory requirements; enhances sustainability credentials.",
+            "Priority": "Medium",
             "Stakeholders": [
-                "R&D Telemetry",
-                "BA"
+                "Tech Reg",
+                "Prod Steward"
             ],
-            "Dependencies": "Requires telemetry hardware/software integration; privacy/compliance review.",
-            "Acceptance Criteria": "Telemetry data accessible via portal; supports diagnostics; compliant with regulations.",
-            "Confidence": 0.85,
-            "citation": "Magellan MRD, Page 3, 12"
+            "Dependencies": "Design and documentation for certification process.",
+            "Acceptance Criteria": "PDL SKU receives Blue Angel certification prior to launch.",
+            "Confidence": 0.8,
+            "citation": "Magellan MRD, Page 4"
         },
         {
             "No": "13",
-            "Title": "Mobile Printing and HP App Support",
-            "Description": "Enable seamless mobile printing functionality and full support through the HP App.",
-            "Rationale": "SMBs expect mobile-first solutions and app-based management.",
-            "Priority": "High",
+            "Title": "Mobile Printing via HP App",
+            "Description": "Enable seamless mobile printing through the HP App for Magellan users.",
+            "Rationale": "Mobile printing is a key use case for modern SMBs; increases product appeal.",
+            "Priority": "Medium",
             "Stakeholders": [
                 "GXD",
                 "Marketing"
             ],
-            "Dependencies": "Requires app integration, firmware support, and user documentation.",
-            "Acceptance Criteria": "Mobile printing tested on major platforms; HP App fully supports Magellan; user acceptance testing passed.",
-            "Confidence": 0.9,
-            "citation": "Magellan MRD, Page 9, 10"
+            "Dependencies": "HP App integration; testing across platforms.",
+            "Acceptance Criteria": "Users can print from mobile devices using the HP App; compatibility with iOS and Android confirmed.",
+            "Confidence": 0.85,
+            "citation": "Magellan MRD, Page 9"
         },
         {
             "No": "14",
-            "Title": "Perfect Print and Perfect Scan AI Solutions",
-            "Description": "Deliver AI-driven 'Perfect Print' and 'Perfect Scan' features for superior print and scan quality, error reduction, and workflow efficiency.",
-            "Rationale": "Key differentiator for Magellan; aligns with SMB need for quality and productivity.",
+            "Title": "Telemetry Requirements",
+            "Description": "Implement telemetry features for remote monitoring, diagnostics, and usage analytics.",
+            "Rationale": "Supports proactive support, serviceability, and product improvement initiatives.",
             "Priority": "High",
             "Stakeholders": [
-                "GXD",
-                "Marketing",
-                "R&D Telemetry"
+                "R&D Telemetry",
+                "Service",
+                "Quality"
             ],
-            "Dependencies": "Requires AI feature development, integration, and validation.",
-            "Acceptance Criteria": "Features available in product; quality improvements measurable; positive SMB feedback.",
-            "Confidence": 0.92,
-            "citation": "Magellan MRD, Page 7, 11"
+            "Dependencies": "Firmware and cloud integration; privacy compliance.",
+            "Acceptance Criteria": "Telemetry data is securely collected, transmitted, and accessible for authorized support and analytics.",
+            "Confidence": 0.9,
+            "citation": "Magellan MRD, Page 3, 12"
         }
     ]
 }
