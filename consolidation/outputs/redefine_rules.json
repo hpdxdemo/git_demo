@@ -1,26 +1,28 @@
 {
     "PRD_Redefine_Analysis": {
         "Redefine_Guidelines": [
-            "Product requirements must be measurable and specific.",
-            "Do not reference 'Equal or better than Predecessor' in requirement thresholds/targets.",
-            "Functional and experience improvements require measurable metrics.",
-            "Do not include best practices in PRD requirements.",
-            "Requests for feature/experience/warranty improvements must be routed to function owners (Marketing/GxD/TME) for holistic assessment."
+            "Requirements must be measurable and specify clear metrics or values.",
+            "Do not use vague terms such as 'Equal or better than Predecessor' in requirement thresholds or targets.",
+            "All functional and experience improvements require measurable metrics.",
+            "Channel requests for Feature, Experience, or Warranty improvements to appropriate Function owners (Marketing, GxD, TME) for holistic assessment.",
+            "Do not include best practices as requirements."
         ],
         "PRD_Scope_Rules": {
             "In_Scope_Product_Specific": [
-                "Performance/Feature (specific to product)",
-                "Quality Improvement & Serviceability (product-specific)",
-                "Telemetry (product-specific)",
-                "Documentation and Process (product-specific)",
-                "Test Setup/Fixture (product-specific)",
-                "Design For Manufacturing (product-specific)",
-                "Cost Reduction (product-specific)"
+                "Customer-facing improvements, visible touchpoints",
+                "Insight-driven requirements",
+                "Performance/Feature",
+                "Quality Improvement & Serviceability",
+                "Telemetry",
+                "Documentation and Process",
+                "Test Setup / Fixture",
+                "Design For Manufacturing",
+                "Cost Reduction"
             ],
             "Out_of_Scope_Common_Across_All_Products": [
-                "Safety & Regulatory compliance (common requirement)",
-                "Environment & Sustainability compliance (common requirement)",
-                "HW Reliability (common requirement)"
+                "Safety & Regulatory compliance",
+                "Environment & Sustainability compliance",
+                "HW Reliability"
             ]
         },
         "Extended_Supporting_Documents": [
@@ -28,25 +30,25 @@
                 "Requirement": "Documentation",
                 "SharePoint_Owner": "Tech Reg SharePoint",
                 "Owner": "Parvin, Shabeena",
-                "Instruction": "Program Lead to insert one liner in PRD referencing R/S requirement doc rev 1.x and SharePoint link."
+                "Instruction": "This product needs to meet R/S requirement doc rev 1.x, refer to SharePoint link."
             },
             {
                 "Requirement": "Regulatory/Safety",
-                "SharePoint_Owner": "Pdt Steward SharePoint",
+                "SharePoint_Owner": "Pdt Steward Sharepoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "Program Lead to insert one liner in PRD referencing E/S requirement doc rev 1.x and SharePoint link."
+                "Instruction": "This product needs to meet E/S requirement doc rev 1.x, refer to SharePoint link."
             },
             {
                 "Requirement": "Environmental/Sustainability",
-                "SharePoint_Owner": "Pdt Steward SharePoint",
+                "SharePoint_Owner": "Pdt Steward Sharepoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "Program Lead to insert one liner in PRD referencing E/S requirement doc rev 1.x and SharePoint link."
+                "Instruction": "This product needs to meet E/S requirement doc rev 1.x, refer to SharePoint link."
             },
             {
                 "Requirement": "Hardware Reliability",
-                "SharePoint_Owner": "DVAR SharePoint",
+                "SharePoint_Owner": "DVAR Sharepoint",
                 "Owner": "Foo, Shiang Jin",
-                "Instruction": "Program Lead to insert one liner in PRD referencing Reliability Requirement doc rev 1.x and SharePoint link."
+                "Instruction": "This product needs to meet Reliability Requirement doc rev 1.x, refer to SharePoint link."
             }
         ],
         "Categorization_Data": {
@@ -70,14 +72,12 @@
                     "Category": "Experience",
                     "Functions": [
                         "Marketing",
-                        "GXD",
-                        "Quality"
+                        "GXD"
                     ]
                 },
                 {
                     "Category": "Design/UI",
                     "Functions": [
-                        "Marketing",
                         "GXD"
                     ]
                 },
@@ -186,16 +186,13 @@
                 "USB Certification",
                 "WeChat Print",
                 "Wifi",
-                "Others",
-                "Must",
-                "High Want",
-                "Want"
+                "Others"
             ]
         },
         "Threshold_Target_Guidelines": {
-            "Challenge": "It's difficult for Quality and Marketing to write technical specs or values for some requirements.",
-            "Past_Practice": "Using vague statements such as 'equal or better than predecessor'.",
-            "Proposal": "State what the customer expects instead of vague statements. Requirements must be clear, measurable, and actionable.",
+            "Challenge": "It is difficult for Quality and Marketing to write technical specs or values for subjective requirements.",
+            "Past_Practice": "Use of vague statements such as 'equal or better than predecessor'.",
+            "Proposal": "State what the customer expects instead of vague statements. Target and Threshold must be specific and measurable.",
             "Example_Case_1_Tire_Mark": {
                 "Requirement_From_Customer_Perspective": "No visible tire mark on photo media.",
                 "Target_Goal": "No visible tire mark.",
@@ -213,7 +210,7 @@
             "Documentation & Process (from Ops): 'Need R&D to check ELCN BOM structure accuracy'",
             "Documentation & Process (from Ops): 'Anchor plot must be ready before PP'",
             "Documentation & Process (from Ops): 'Seed code for PP need to be released 1 mth before PP PCA build'",
-            "Design for Manufacturing (from Ops): 'Limit to 2 color per product upon SOR . If there is common tool across products. That part is only limited to 2 color.'",
+            "Design for Manufacturing (from Ops): 'Limit to 2 color per product upon SOR. If there is common tool across products. That part is only limited to 2 color.'",
             "Design for Manufacturing (from Ops): 'Printer USB communication ready within 20 second to optimize the MFG CIMation test time'",
             "Test Setup / Fixture (from Ops/DVAR): 'R&D own critical test/assy & characterization fixtures, not only providing test spec.'",
             "Test Setup / Fixture (from Ops/DVAR): 'Require Breakaway boards, Extended long FFC cables and Serial Harness cables'",
