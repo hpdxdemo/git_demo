@@ -13,9 +13,6 @@
             "Priority": "MUST",
             "Lead_Function": "Solution",
             "Lead": "Chris",
-            "Co_Deliver_Team_Member": "",
-            "Accept_Goal": "Drop",
-            "Committed_to_Deliver_by": "",
             "Status": "Grey",
             "Remarks": "Quality team is following-up with Tais Bellini. 20210702 (Chris/Jess) Not possible to change in 123.hp.com as it reference to Product Master List where is common shared with PC group. It is only currently possible to do at support.hp.com. Proposed to Drop.",
             "Applicable_SKUs": [
@@ -26,7 +23,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "Reduce the number of product reference names displayed to customers on 123.hp.com for the OfficeJet Pro 9010 series to a single, consistent name.",
+            "Cleaned_Requirement_Text": "Reduce the number of unique product references/names for OfficeJet Pro 9010 series on 123.hp.com to a single, consistent name to minimize user confusion.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -42,9 +39,6 @@
             "Priority": "MUST",
             "Lead_Function": "ME Platform",
             "Lead": "Sau Pin",
-            "Co_Deliver_Team_Member": "",
-            "Accept_Goal": "Accept - Threshold",
-            "Committed_to_Deliver_by": "",
             "Status": "Green",
             "Remarks": "20220920(Sau Pin): LP2 Life test are meeting Intervention rate(Qual) 20220316 (Sau Pin): I assume baseline is same as Manhattan. Status as \"Yellow\" as need to review interventon performance. Accept threshold. EM media as Eval media.",
             "Applicable_SKUs": [
@@ -55,7 +49,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The printer must successfully print on all new and current EM (Evaluation Media) and market segment media, meeting intervention specifications for all supported climatic conditions as defined for the Manhattan platform.",
+            "Cleaned_Requirement_Text": "Printer must be able to reliably print on all new and current EM (Evaluation Media) and market segment media, meeting intervention rate specifications and minimum print quality (PQ) standards for each region under all relevant climatic conditions.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -71,9 +65,6 @@
             "Priority": "MUST",
             "Lead_Function": "ME Platform",
             "Lead": "Sau Pin",
-            "Co_Deliver_Team_Member": "",
-            "Accept_Goal": "Accept - Threshold",
-            "Committed_to_Deliver_by": "",
             "Status": "Green",
             "Remarks": "20220315(Sau Pin): Marconi Base LP1 test with no issue reported. Marconi Hi and PDL SKUs testing on-going HDRV response: Have conducted sanity check with Manhattan Base & Hi, Malbec Hi and Agave. Only Malbec Hi had issue with input tray flag broken. Need TME input on field data for 3M. Aiqiang: Manhattan field data shows tray \"fang\" broken. ME will look at solutions to solve fang broken issue such as to strengthen the fang.",
             "Applicable_SKUs": [
@@ -84,7 +75,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The printer must operate correctly when placed on uneven surfaces such as sofas, tablecloths, or carpets, without causing failure of the input tray sensor flag or similar components.",
+            "Cleaned_Requirement_Text": "Printer must function correctly and without component breakage when placed and operated on uneven surfaces such as sofas, tablecloths, or carpets.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -100,9 +91,6 @@
             "Priority": "MUST",
             "Lead_Function": "ME Platform",
             "Lead": "Sau Pin",
-            "Co_Deliver_Team_Member": "",
-            "Accept_Goal": "Drop",
-            "Committed_to_Deliver_by": "",
             "Status": "Grey",
             "Remarks": "tilt 20 degree is for CISS product as acknoledged by Michelle. Shin to check if want to evaluate on Manhattan Plus with XXL ink cartridges. Close for Marconi.",
             "Applicable_SKUs": [
@@ -113,7 +101,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "Assess if the printer experiences any functional failure when tilted left or right by 20 degrees during printing.",
+            "Cleaned_Requirement_Text": "Assess whether the printer maintains full functional operation when tilted left and right up to 20 degrees during printing, without causing failures.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -129,9 +117,6 @@
             "Priority": "MUST",
             "Lead_Function": "ME Platform",
             "Lead": "Sau Pin",
-            "Co_Deliver_Team_Member": "",
-            "Accept_Goal": "Accept - Threshold",
-            "Committed_to_Deliver_by": "",
             "Status": "Green",
             "Remarks": "(Sau Pin): Marconi Base LP1 test with no issue reported. Marconi Hi and PDL SKUs testing on-going interesting to find out the test result. HDRV response: Have conducted sanity check with Manhattan Base & Hi, Malbec Hi and Agave. No issue found. Agree to put it as evaluation. To be consistent with stardard UBT requirement.20220315",
             "Applicable_SKUs": [
@@ -142,7 +127,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The printer must maintain print quality when printing while placed on a moving trolley, without introducing print quality issues.",
+            "Cleaned_Requirement_Text": "Printer must be able to print with no print quality (PQ) issues when placed and operated on a trolley.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         }
