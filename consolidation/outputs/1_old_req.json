@@ -1,20 +1,21 @@
 {
     "batch_id": 1,
-    "rows": [
+    "requirements": [
         {
             "No": 1,
             "Requestor": "Celine Taccori",
             "Department": "Design",
             "Category": "Customer Experience",
             "Requirement": "OOBE - reduce number of steps : 123.hp.com :",
-            "Additional_Comments": "Is there a reason to have 3 names for the same reference ?\nHP OJP 9010 All-in-one Printer series\nHP OJP 9010e All-in-One Printer series\nHP OJP 9010 All-in-One Printer\nHave too many names isn't efficient and can induce user errors",
-            "Threshold": "two names / reference are proposed\ncurrently 4 references for Office Jet Pro 9010",
+            "Additional_Comments": "Is there a reason to have 3 names for the same reference ? HP OJP 9010 All-in-one Printer series HP OJP 9010e All-in-One Printer series HP OJP 9010 All-in-One Printer Have too many names isn't efficient and can induce user errors",
+            "Threshold": "two names / reference are proposed currently 4 references for Office Jet Pro 9010",
             "Goal": "Only one name / reference is proposed to customer",
             "Priority": "MUST",
             "Lead_Function": "Solution",
             "Lead": "Chris",
+            "Accept_Goal": "Drop",
             "Status": "Grey",
-            "Remarks": "Quality team is following-up with Tais Bellini.\n\n20210702 (Chris/Jess) Not possible to change in 123.hp.com as it reference to Product Master List where is common shared with PC group. It is only currently possible to do at support.hp.com. Proposed to Drop.",
+            "Remarks": "Quality team is following-up with Tais Bellini. 20210702 (Chris/Jess) Not possible to change in 123.hp.com as it reference to Product Master List where is common shared with PC group. It is only currently possible to do at support.hp.com. Proposed to Drop.",
             "Applicable_SKUs": [
                 "Marconi SF(Non-PDL)",
                 "Marconi SF PDL",
@@ -23,7 +24,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The product naming convention presented to customers on 123.hp.com must be consolidated to a single name/reference per product series (e.g., Office Jet Pro 9010), to reduce confusion and user errors.",
+            "Cleaned_Requirement_Text": "The product must present only one unique product name/reference to the customer on 123.hp.com to reduce confusion and user errors.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -32,15 +33,16 @@
             "Requestor": "Chong, Shin",
             "Department": "HDRV",
             "Category": "Reliability",
-            "Requirement": "Printer able to run all new/current EM / market segment media ",
+            "Requirement": "Printer able to run all new/current EM / market segment media ",
             "Additional_Comments": "Printer to meet intervention spec for the different media and climatic conditions for Manhattan platform.",
             "Threshold": "Minimum PQ acceptable by region",
             "Goal": "Pass intervention rate and NO PQ issue",
             "Priority": "MUST",
             "Lead_Function": "ME Platform",
             "Lead": "Sau Pin",
+            "Accept_Goal": "Accept - Threshold",
             "Status": "Green",
-            "Remarks": "20220920(Sau Pin): LP2 Life test are meeting Intervention rate(Qual)\n 20220316 (Sau Pin): I assume baseline is same as Manhattan. Status as \"Yellow\" as need to review interventon performance.\nAccept threshold. EM media as Eval media.\n",
+            "Remarks": "20220920(Sau Pin): LP2 Life test are meeting Intervention rate(Qual) 20220316 (Sau Pin): I assume baseline is same as Manhattan. Status as \"Yellow\" as need to review interventon performance. Accept threshold. EM media as Eval media.",
             "Applicable_SKUs": [
                 "Marconi SF(Non-PDL)",
                 "Marconi SF PDL",
@@ -49,7 +51,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The printer must reliably print on all new and current EM (Evaluation Media) and market segment media, meeting intervention specifications for all relevant climatic conditions as defined for the Manhattan platform.",
+            "Cleaned_Requirement_Text": "The printer must reliably print on all new and current EM (Evaluation Media) and market segment media, meeting minimum print quality (PQ) standards for each region and intervention specifications under all relevant climatic conditions.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -65,8 +67,9 @@
             "Priority": "MUST",
             "Lead_Function": "ME Platform",
             "Lead": "Sau Pin",
+            "Accept_Goal": "Accept - Threshold",
             "Status": "Green",
-            "Remarks": "20220315(Sau Pin): Marconi Base LP1 test with no issue reported. Marconi Hi and PDL SKUs testing on-going\nHDRV response: Have conducted sanity check with Manhattan Base & Hi, Malbec Hi and Agave. Only Malbec Hi had issue with input tray flag broken. Need TME input on field data for 3M. \nAiqiang: Manhattan field data shows tray \"fang\" broken. ME will look at solutions to solve fang broken issue such as to strengthen the fang.\n",
+            "Remarks": "20220315(Sau Pin): Marconi Base LP1 test with no issue reported. Marconi Hi and PDL SKUs testing on-going HDRV response: Have conducted sanity check with Manhattan Base & Hi, Malbec Hi and Agave. Only Malbec Hi had issue with input tray flag broken. Need TME input on field data for 3M. Aiqiang: Manhattan field data shows tray \"fang\" broken. ME will look at solutions to solve fang broken issue such as to strengthen the fang.",
             "Applicable_SKUs": [
                 "Marconi SF(Non-PDL)",
                 "Marconi SF PDL",
@@ -75,7 +78,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The product must function without hardware failure (e.g., input tray sensor flag breakage) when placed and operated on common uneven surfaces such as sofas, table cloths, or carpets.",
+            "Cleaned_Requirement_Text": "The product must function properly and without hardware failure (e.g., input tray sensor/flag breakage) when placed and operated on uneven surfaces such as sofas, tablecloths, and carpets.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -91,6 +94,7 @@
             "Priority": "MUST",
             "Lead_Function": "ME Platform",
             "Lead": "Sau Pin",
+            "Accept_Goal": "Drop",
             "Status": "Grey",
             "Remarks": "tilt 20 degree is for CISS product as acknoledged by Michelle. Shin to check if want to evaluate on Manhattan Plus with XXL ink cartridges. Close for Marconi.",
             "Applicable_SKUs": [
@@ -101,7 +105,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The product must be evaluated for functional failures when tilted left and right up to 20 degrees during printing, as per customer usage scenarios.",
+            "Cleaned_Requirement_Text": "The printer should not experience functional failure if tilted left or right up to 20 degrees during printing.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -117,8 +121,9 @@
             "Priority": "MUST",
             "Lead_Function": "ME Platform",
             "Lead": "Sau Pin",
+            "Accept_Goal": "Accept - Threshold",
             "Status": "Green",
-            "Remarks": "(Sau Pin): Marconi Base LP1 test with no issue reported. Marconi Hi and PDL SKUs testing on-going\ninteresting to find out the test result.\nHDRV response: Have conducted sanity check with Manhattan Base & Hi, Malbec Hi and Agave. No issue found. Agree to put it as evaluation. To be consistent with stardard UBT requirement.20220315\n",
+            "Remarks": "(Sau Pin): Marconi Base LP1 test with no issue reported. Marconi Hi and PDL SKUs testing on-going interesting to find out the test result. HDRV response: Have conducted sanity check with Manhattan Base & Hi, Malbec Hi and Agave. No issue found. Agree to put it as evaluation. To be consistent with stardard UBT requirement.20220315",
             "Applicable_SKUs": [
                 "Marconi SF(Non-PDL)",
                 "Marconi SF PDL",
@@ -127,7 +132,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The printer must maintain print quality and function without issue when printing while placed on a trolley, consistent with standard UBT requirements.",
+            "Cleaned_Requirement_Text": "The printer must maintain print quality and operate correctly when placed on a moving trolley during printing.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         }
